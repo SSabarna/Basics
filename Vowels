@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    char ch[50],i=0,d;
+    scanf("%s",ch);
+    while(ch[i]!='\0')
+    {
+    	if(ch[i]=='a'||ch[i]=='e'||ch[i]=='i'||ch[i]=='o'||ch[i]=='u')
+    	{
+    		d++;
+    	}
+    	i++;
+    }
+    printf("%d",d);
+    return 0;
+}
