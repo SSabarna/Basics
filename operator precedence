@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int x,a,b,profit;
+    printf("Enter the number of copies sold\n");
+    scanf("%d",&x);
+    printf("Enter the cost of 1 copy of the newspaper\n");
+    scanf("%d",&a);
+    printf("Enter the cost spent by the agency on 1 copy of the newspaper\n");
+    scanf("%d",&b);
+    profit=(x*a)-(x*b+100);
+    printf("The profit obtained is Rs.%d",profit);
+    return 0;
+}
