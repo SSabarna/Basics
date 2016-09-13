@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int xa,ya,xb,yb,xc,yc;
+    float ab,bc,ac;
+    printf("Enter the x-coordinate of vertex A\n");
+    scanf("%d",&xa);
+    printf("Enter the y-coordinate of vertex A\n");
+    scanf("%d",&ya);
+    printf("Enter the x-coordinate of vertex B\n");
+    scanf("%d",&xb);
+    printf("Enter the y-coordinate of vertex B\n");
+    scanf("%d",&yb);
+    printf("Enter the x-coordinate of vertex C\n");
+    scanf("%d",&xc);
+    printf("Enter the y-coordinate of vertex C\n");
+    scanf("%d",&yc);
+    ab=sqrt(((xa-xb)*(xa-xb))+((ya-yb)*(ya-yb)));
+    bc=sqrt(((xb-xc)*(xb-xc))+((yb-yc)*(yb-yc)));
+    ac=sqrt(((xa-xc)*(xa-xc))+((ya-yc)*(ya-yc)));
+    printf("Length of side AB is %.1f\n",ab);
+    printf("Length of side BC is %.1f\n",bc);
+    printf("Length of side AC is %.1f\n",ac);
+    return 0;
+}
