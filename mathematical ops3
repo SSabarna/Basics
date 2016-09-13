@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int m,c,x,h;
+    printf("Enter the value of m\n");
+    scanf("%d",&m);
+    printf("Enter the value of c\n");
+    scanf("%d",&c);
+    printf("The line equation is y=%dx+%d\n",m,c);
+    x=-(c/m);
+    printf("The x intercept is %d\n",x);
+    printf("The y intercept is %d\n",c);
+    h=x+c;
+    printf("The house number is %d\n",h);
+    return 0;
+}
