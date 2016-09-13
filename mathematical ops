@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int length,breadth,perimeter,area;
+    printf("Enter the length of the ground\n");
+    scanf("%d",&length);
+    printf("Enter the width of the ground\n");
+    scanf("%d",&breadth);
+    perimeter=2*(length+breadth);
+    area=length*breadth;
+    printf("The length of the rope needed is %dm\n",perimeter);
+    printf("The quantity of carpet needed is %dsqm\n",area);
+    return 0;
+}
